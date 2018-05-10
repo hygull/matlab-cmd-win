@@ -1,5 +1,21 @@
 # MATLAB - Use of datetime(), datestr(), strsplit(), strjoin()
 
+**strjoin()** can be used to concatenate elements of cell array of character vectors.
+
+>[Check my answer on MathWorks](https://in.mathworks.com/matlabcentral/answers/20043-function-for-concatenating-strings-with-delimiters). 
+
+    >> cellArr = {'sample', 'abc', '1234', '12'};
+    >> 
+    >> strjoin(cellArr, '_')
+
+    ans =
+
+        'sample_abc_1234_12'
+
+    >> 
+
+# Example
+
 ```matlab
     >> now = datetime('now')
 
