@@ -11,10 +11,10 @@
     }
 %}
 
-% https://www.quandl.com/api/v3/datatables/SHARADAR/SEP?date=1998-12-31&ticker=AAPL&api_key=2Evs3E8J_LduFKbNF6Gw
+% https://www.quandl.com/api/v3/datatables/SHARADAR/SEP?date=1998-12-31&ticker=AAPL&api_key=2evs3E8J_LDUFKbnf6gW
 baseUrl = "https://www.quandl.com/api/v3/datatables/SHARADAR/SEP";
 date = '1998-12-31';
 ticker = 'AAPL';
-api_key = '2Evs3E8J_LduFKbNF6Gw';
+api_key = '2evs3E8J_LDUFKbnf6gW';
 
 response = webread(baseUrl, 'date', date, 'ticker', ticker, 'api_key', api_key);
