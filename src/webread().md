@@ -7,7 +7,7 @@
 >> baseUrl = 'https://www.quandl.com/api/v3/datasets/LBMA/GOLD.json';
 >>
 >> % API key for Quandl (Use your own API key)
->> apiKey = '2Evs3E8J_LduFKbNF6Gw';
+>> apiKey = '2eVS3e8J_lduFKbNF6gW';
 >> 
 >> response = webread(baseUrl, 'api_key', apiKey);
 
