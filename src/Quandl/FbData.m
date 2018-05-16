@@ -7,7 +7,6 @@
             "https://www.quandl.com/databases/SEP/usage/quickstart/api",
             
         ]
-        "guidedBy": "Tamim Zamrik Sir",
         "createdBy": "Rishikesh Agrawani",
     }
 %}
