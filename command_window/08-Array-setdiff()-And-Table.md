@@ -1,4 +1,6 @@
-## Array and table
+## Array, setdiff() and table
+
+https://in.mathworks.com/help/matlab/ref/setdiff.html
 
 ```matlab
 >> a = 1:10
